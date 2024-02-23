@@ -1,0 +1,102 @@
+<div class="container"><app-header></app-header><section class="container-fluid">
+    <mat-card class="card">
+  <mat-card-header class="centered">
+    
+    <mat-card-title>
+        <h2 class="text-yms">Yoga Man Studios</h2>
+    </mat-card-title>
+    <mat-card-subtitle>Admin Actions</mat-card-subtitle>
+  </mat-card-header>
+  <div mat-card-avatar class="card-header-image"></div>
+
+   <img mat-card-lg-image src="/assets/yms/yms.png" alt="Yoga Man Studios" class="centered p-2 m-2">
+
+  <mat-card-content>
+
+    <mat-grid-list cols="3" rowHeight="4:3" gutterSize="20px">
+    <mat-grid-tile>
+      <mat-card class="mat-raised-z6 card">
+        <mat-card-title>
+          <h2 class="text-yms"> New Subscription</h2>
+        </mat-card-title>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions class="mat-raised-z6">
+          <a routerLink="/business/yms/subscriptions/new" class="centered"><button mat-icon-button
+              color="primary"><mat-icon
+                class="material-symbols-outlined text-yms">chevron_right</mat-icon></button></a>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="mat-raised-z6 card">
+        <mat-card-title>
+          <h2 class="text-yms">Subscription Plans</h2>
+        </mat-card-title>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions class="mat-raised-z6">
+          <a routerLink="/business/yms/subscriptions" class="centered"><button mat-icon-button
+              color="primary"><mat-icon
+                class="material-symbols-outlined text-yms">chevron_right</mat-icon></button></a>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="mat-raised-z6 card">
+        <mat-card-title>
+          <h2 class="text-yms"> Send Invoice</h2>
+        </mat-card-title>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions class="mat-raised-z6">
+          <a routerLink="/business/yms/invoices/new" class="centered"><button mat-icon-button
+              color="primary"><mat-icon
+                class="material-symbols-outlined text-yms">chevron_right</mat-icon></button></a>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="mat-raised-z6 card">
+        <mat-card-title>
+          <h2 class="text-yms"> Invoices</h2>
+        </mat-card-title>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions class="mat-raised-z6">
+          <a routerLink="/business/yms/invoices" class="centered"><button mat-icon-button
+              color="primary"><mat-icon
+                class="material-symbols-outlined text-yms">chevron_right</mat-icon></button></a>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+    
+  </mat-card-content>
+  <mat-card-actions class="align-buttons-center">
+    <button mat-raised-button color="warn" (click)="logout()">
+        <mat-icon class="material-symbols-outline text-white">lock</mat-icon>
+    </button>
+
+    
+
+    <a routerLink="/business/login">
+        <button mat-raised-button color="warn">
+          <mat-icon class="material-symbols-outline text-white">lock_open</mat-icon>
+        </button>
+    </a>
+  </mat-card-actions>
+</mat-card>
+</section></div>
+
+
+
+
+  
+
+
+

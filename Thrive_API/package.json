@@ -1,0 +1,25 @@
+{
+  "name": "thrive-api",
+  "version": "1.0.0",
+  "description": "Thrive Convex API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/kephotho"
+  },
+  "keywords": [
+    "Kephotho"
+  ],
+  "author": "Kephotho Solutions",
+  "license": "MIT",
+  "dependencies": {
+    "@descope/node-sdk": "^1.6.3",
+    "convex": "1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
+}

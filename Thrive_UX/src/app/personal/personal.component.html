@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="container"><app-header></app-header><section class="container-fluid">
+    <mat-card>
+      <mat-card-content class="flex-row" *ngIf="SubscriptionPlans">
+        <mat-card class="subscription-card card-w400 m-1 p-2" *ngFor="let plan of SubscriptionPlans">
+          <mat-card-title>
+            <h2>{{ plan.title }}</h2>
+          </mat-card-title>
+          <mat-card-content>
+            {{ plan.description }}
+
+          </mat-card-content>
+          <mat-card-footer>
+            <button mat-raised-button color="secondary"
+                (click)="subscribe( plan.subscription_id )">
+                <mat-icon class="material-icons">card_membership</mat-icon>
+                Subscribe.
+              </button>
+          </mat-card-footer>
+        </mat-card>
+      </mat-card-content>
+
+    </mat-card>
+  </section></div>
+</div>

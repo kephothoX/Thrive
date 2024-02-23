@@ -1,0 +1,108 @@
+{
+  "catalog_object": {
+    "type": "SUBSCRIPTION_PLAN",
+    "id": "Q6NKAGU4LIABWZF422DKLEUX",
+    "updated_at": "2024-02-21T14:03:49.156Z",
+    "created_at": "2024-02-21T14:03:49.156Z",
+    "version": 1708524229156,
+    "is_deleted": false,
+    "present_at_all_locations": true,
+    "subscription_plan_data": {
+      "name": "Test900 Subscription",
+      "all_items": true
+    }
+  },
+  "id_mappings": [
+    {
+      "client_object_id": "#Test900",
+      "object_id": "Q6NKAGU4LIABWZF422DKLEUX"
+    }
+  ]
+}
+
+
+
+{
+  "catalog_object": {
+    "type": "SUBSCRIPTION_PLAN_VARIATION",
+    "id": "SUHSS4V2WIO44TMWBKZGLC5P",
+    "updated_at": "2024-02-21T14:09:40.554Z",
+    "created_at": "2024-02-21T14:09:40.554Z",
+    "version": 1708524580554,
+    "is_deleted": false,
+    "present_at_all_locations": true,
+    "subscription_plan_variation_data": {
+      "name": "Test900 Monthly",
+      "phases": [
+        {
+          "uid": "PSDS45Z3PDHEBV2V6F6TUGXV",
+          "cadence": "MONTHLY",
+          "ordinal": 1,
+          "pricing": {
+            "type": "STATIC",
+            "price": {
+              "amount": 200,
+              "currency": "USD"
+            },
+            "price_money": {
+              "amount": 200,
+              "currency": "USD"
+            }
+          }
+        }
+      ],
+      "subscription_plan_id": "Q6NKAGU4LIABWZF422DKLEUX"
+    }
+  },
+  "id_mappings": [
+    {
+      "client_object_id": "#Test900Monthly",
+      "object_id": "SUHSS4V2WIO44TMWBKZGLC5P"
+    }
+  ]
+}
+
+
+
+{
+    "SQResponse": {
+        "catalog_object": {
+            "type": "SUBSCRIPTION_PLAN_VARIATION",
+            "id": "RKRA23PEEUNBF2RCWDJEKMVQ",
+            "updated_at": "2024-02-21T17:34:56.129Z",
+            "created_at": "2024-02-21T17:34:56.129Z",
+            "version": 1708536896129,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "subscription_plan_variation_data": {
+                "name": "Jijenge Na Oppo Monthly",
+                "phases": [
+                    {
+                        "uid": "LS3IWCMFEOTRQDHX54OZ2YVK",
+                        "cadence": "MONTHLY",
+                        "periods": 24,
+                        "ordinal": 1,
+                        "pricing": {
+                            "type": "STATIC",
+                            "price": {
+                                "amount": 200,
+                                "currency": "USD"
+                            },
+                            "price_money": {
+                                "amount": 200,
+                                "currency": "USD"
+                            }
+                        }
+                    }
+                ],
+                "subscription_plan_id": "3VR7UHD64VVQBVX3KE6ROAEI"
+            }
+        },
+        "id_mappings": [
+            {
+                "client_object_id": "#JijengeNaOppoMonthly",
+                "object_id": "RKRA23PEEUNBF2RCWDJEKMVQ"
+            }
+        ]
+    }
+}

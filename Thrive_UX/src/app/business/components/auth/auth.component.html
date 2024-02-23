@@ -1,0 +1,10 @@
+<div class="container">
+    <app-header></app-header>
+    <section class="container-fluid">
+        <mat-card>
+            <mat-card-content>
+                <descope (success)="onSuccess($event)" (error)="onError($event)" [flowId]="flowId"></descope>
+            </mat-card-content>
+        </mat-card>
+    </section>
+</div>
